@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app>
+    <welcome-file-list>
+        <welcome-file>home.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>servlet.Register</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>otpgen</servlet-name>
+        <servlet-class>servlet.otpgen</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>otpgen</servlet-name>
+        <url-pattern>/otpgen</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CheckPass</servlet-name>
+        <servlet-class>servlet.CheckPass</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>CheckPass</servlet-name>
+        <url-pattern>/CheckPass</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>UpdatePass</servlet-name>
+        <servlet-class>servlet.UpdatePass</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>UpdatePass</servlet-name>
+        <url-pattern>/UpdatePass</url-pattern>
+    </servlet-mapping>
+      <servlet>
+        <servlet-name>sendSMS</servlet-name>
+        <servlet-class>servlet.sendSMS</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>sendSMS</servlet-name>
+        <url-pattern>/sendSMS</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>Printpaper</servlet-name>
+        <servlet-class>servlet.Printpaper</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>Printpaper</servlet-name>
+        <url-pattern>/Printpaper</url-pattern>
+    </servlet-mapping>
+</web-app>
